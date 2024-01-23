@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: echotrack
+-- Host: 127.0.0.1    Database: ecotrack
 -- ------------------------------------------------------
 -- Server version	8.2.0
 
@@ -23,14 +23,17 @@ DROP TABLE IF EXISTS `resources`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `resources` (
-  `ResourceID` int NOT NULL AUTO_INCREMENT,
-  `Title` varchar(255) NOT NULL,
-  `Content` text,
-  `Author` varchar(255) DEFAULT NULL,
-  `Category` varchar(255) DEFAULT NULL,
-  `Timestamp` datetime DEFAULT NULL,
-  PRIMARY KEY (`ResourceID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+  `resourceId` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `description` text,
+  `url` varchar(255) NOT NULL,
+  `type` varchar(50) DEFAULT NULL,
+  `topic` varchar(100) DEFAULT NULL,
+  `author` varchar(100) DEFAULT NULL,
+  `createdAt` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updatedAt` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`resourceId`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -39,6 +42,7 @@ CREATE TABLE `resources` (
 
 LOCK TABLES `resources` WRITE;
 /*!40000 ALTER TABLE `resources` DISABLE KEYS */;
+INSERT INTO `resources` VALUES (1,'Introduction to C++','A beginner\'s guide to C++ programming.','https://example.com/js-intro','Tutorial','Programming','John Doeeee','2023-12-26 15:15:39','2023-12-26 15:44:42'),(3,'Introduction to C','A beginner\'s guide to C programming.','https://example.com/js-intro','Tutorial','Programming','John Doe','2023-12-26 15:23:27','2023-12-26 15:29:58'),(6,'Introduction to Recycling','Learn the basics of recycling and its importance.','https://example.com/recycling-intro','Article','Recycling','John Doe','2023-12-26 15:58:08','2023-12-26 15:58:08'),(7,'Renewable Energy Sources','Explore different renewable energy sources and their benefits.','https://example.com/renewable-energy','Video','Renewable Energy','Jane Smith','2023-12-26 15:58:14','2023-12-26 15:58:14'),(8,'Climate Change Solutions','Discover practical solutions to address climate change issues.','https://example.com/climate-change-solutions','Guide','Climate Change','Environmental Organization','2023-12-26 15:58:19','2023-12-26 15:58:19');
 /*!40000 ALTER TABLE `resources` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-12-24 19:13:06
+-- Dump completed on 2023-12-26 23:39:39
