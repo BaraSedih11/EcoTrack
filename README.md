@@ -1,11 +1,13 @@
 <div align="center">
   <img src="https://github.com/BaraSedih11/EcoTrack/assets/98843912/f7abca2a-8d31-4c85-a94d-54e210108fb7" />
   <br />
-  <h1>Environmental Monitoring and Reporting Platform</h1>
-</div>
-<br />
+  <br />
+  
+ ![GitHub repo size](https://img.shields.io/github/repo-size/BaraSedih11/EcoTrack) ![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/BaraSedih11/EcoTrack) ![NPM Version](https://img.shields.io/npm/v/npm) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/BaraSedih11/EcoTrack/main)
 
+</div>  
 
+<h1>Environmental Monitoring and Reporting Platform</h1>
 EcoTrack is a cutting-edge platform for environmental reporting and monitoring; it manages the distribution of environmental data and modifies it. This platform, a backend API built with Node.js, was developed to provide a robust framework for user interaction, data collection, and insightful reporting to satisfy the growing need for all-encompassing environmental solutions.
 
 ## Table of Contents
