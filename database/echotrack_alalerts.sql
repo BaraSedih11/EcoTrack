@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: echotrack
+-- Host: 127.0.0.1    Database: ecotrack
 -- ------------------------------------------------------
 -- Server version	8.2.0
 
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-12-24 19:13:06
+-- Dump completed on 2023-12-26 23:39:40
