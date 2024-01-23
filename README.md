@@ -56,7 +56,7 @@ To get started with EcoTrack API, follow these steps:
 1. Clone the repository: `git clone https://github.com/AdvancedSoftwareTeam/EcoTrack.git` 
 2. Install dependencies: `npm install`
 3. Configure environment variables.
-4. Setup the database using mysql.
+4. Setup the database using mysql ( sql code is inside database folder ).
 5. Run the application: `npm start`
 
 ## API Documentation
