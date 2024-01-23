@@ -35,7 +35,7 @@ CREATE TABLE `contributions` (
   `createdAt` datetime NOT NULL,
   `updatedAt` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -44,7 +44,7 @@ CREATE TABLE `contributions` (
 
 LOCK TABLES `contributions` WRITE;
 /*!40000 ALTER TABLE `contributions` DISABLE KEYS */;
-INSERT INTO `contributions` VALUES (1,1,'Planting Trees','Planted 10 trees in the community park.','Community Park, City X','2023-11-01',10,'trees','Used eco-friendly planting materials.','2023-12-24 21:25:59','2023-12-24 21:25:59'),(2,1,'Planting Trees','Planted 10 trees in the community park.','Community Park, City X','2023-11-01',10,'trees','Used eco-friendly planting materials.','2023-12-24 21:27:35','2023-12-24 21:27:35'),(3,1,'Moving trash','6 hours moving trash in the community park.','Community Park, City Y','2023-10-07',6,'hours','Used eco-friendly cleaning tools.','2023-12-28 12:01:11','2023-12-28 12:01:11'),(4,9,'Moving trash','6 hours moving trash in the community park.','Community Park, City Y','2023-10-07',6,'hours','Used eco-friendly cleaning tools.','2023-12-28 12:02:29','2023-12-28 12:02:29');
+INSERT INTO `contributions` VALUES (1,1,'Planting Trees','Planted 10 trees in the community park.','Community Park, City X','2023-11-01',10,'trees','Used eco-friendly planting materials.','2023-12-24 21:25:59','2023-12-24 21:25:59'),(2,1,'Planting Trees','Planted 10 trees in the community park.','Community Park, City X','2023-11-01',10,'trees','Used eco-friendly planting materials.','2023-12-24 21:27:35','2023-12-24 21:27:35');
 /*!40000 ALTER TABLE `contributions` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -57,4 +57,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-12-28 19:33:59
+-- Dump completed on 2023-12-26 23:39:39
