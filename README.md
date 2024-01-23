@@ -1,4 +1,10 @@
-# EcoTrack: Environmental Monitoring and Reporting Platform
+<div align="center">
+  <img src="https://github.com/BaraSedih11/EcoTrack/assets/98843912/f7abca2a-8d31-4c85-a94d-54e210108fb7" />
+  <br />
+  <h1>Environmental Monitoring and Reporting Platform</h1>
+</div>
+<br />
+
 
 EcoTrack is a cutting-edge platform for environmental reporting and monitoring; it manages the distribution of environmental data and modifies it. This platform, a backend API built with Node.js, was developed to provide a robust framework for user interaction, data collection, and insightful reporting to satisfy the growing need for all-encompassing environmental solutions.
 
