@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/BaraSedih11/EcoTrack/assets/98843912/9086ea16-4349-4efd-8c4c-bce1c571c29f" />
+  <img src="https://github.com/BaraSedih11/EcoTrack/assets/98843912/9086ea16-4349-4efd-8c4c-bce1c571c29f" width=500px/>
   <br />
   <br />
   
