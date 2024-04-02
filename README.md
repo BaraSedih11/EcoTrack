@@ -26,10 +26,6 @@ EcoTrack is a cutting-edge platform for environmental reporting and monitoring; 
 
 EcoTrack serves as a robust backend API designed to handle environmental data collection, user profile management, environmental alerts, community reporting, sustainability scoring, educational resources provision, and open data access for researchers and organizations. It's a platform aimed at promoting environmental awareness, facilitating data sharing, and encouraging sustainable practices.
 
-## Project Folders
-
-<img width="197" alt="folders" src="https://github.com/AdvancedSoftwareTeam/EcoTrack/assets/111571170/fccf2069-262e-4ac2-9476-eff605811d9d">
-
 ## Features
 
 ### Main Features:
