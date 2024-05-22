@@ -50,7 +50,6 @@ EcoTrack serves as a robust backend API designed to handle environmental data co
 - **MySQL:** Database for CRUD operations.
 - **Postman:** API building, testing and documentation tool.
 - **Git:** Version control system.
-- **Socket.IO:** for real-time alerts .
 - **Axios:** making and managing HTTP requests.
 
 ## Getting Started
